@@ -19,7 +19,7 @@ Descarga o clona el repositorio:
 bash
 Copiar
 Editar
-git clone https://github.com/lygarmo/SaboresDeAranjuez.git
+git clone https://github.com/lygarmo/paginaBootstrap/tree/main
 Abre el archivo index.html en tu navegador.
 
 Navega por las secciones de la página para conocer más sobre el restaurante y explorar el menú.
