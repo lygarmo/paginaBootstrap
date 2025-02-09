@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Sabores de Aranjuez</title>
+    <!-- Enlace a Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light"> <!-- bg-light: fondo gris claro para todo el cuerpo -->
+
+    <div id="encabezado" class="d-flex align-items-center justify-content-between p-3 bg-success text-white">
+        <!-- d-flex: convierte el div en un contenedor flexible (Flexbox) -->
+        <!-- align-items-center: alinea los elementos verticalmente al centro -->
+        <!-- justify-content-between: distribuye los elementos dejando espacio entre ellos -->
+        <!-- p-3: agrega padding (espaciado interno) de nivel 3 en todas las direcciones -->
+        <!-- bg-success: aplica un fondo verde -->
+        <!-- text-white: convierte el color del texto en blanco -->
+
+        <div class="logo">
+            <img src="logo.png" class="img-fluid" alt="Logo">
+            <!-- img-fluid: hace que la imagen sea responsive (se adapta al tamaño del contenedor) -->
+        </div>
+        <div class="nombre">
+            <h1 class="fw-bold">Sabores de Aranjuez</h1>
+            <!-- fw-bold: hace que el texto sea en negrita -->
+        </div>
+    </div>
+
+    <div id="cuerpo" class="container my-4">
+        <!-- container: agrega márgenes automáticos y centra el contenido -->
+        <!-- my-4: agrega margen en la parte superior e inferior con nivel 4 -->
+
+        <div class="presentacion mb-4">
+            <!-- mb-4: agrega un margen en la parte inferior de nivel 4 -->
+            <h2 class="text-success">Sobre nosotros</h2>
+            <!-- text-success: cambia el color del texto a verde -->
+            <p>Bienvenidos a Sabores Aranjuez, un restaurante tradicional ubicado a la orilla del río Tajo</p>
+            <h2 class="text-success">Inspiraciones</h2>
+            <p>Nuestra carta se inspira en recetas clásicas utilizando los productos más frescos de nuestra huerta</p>
+        </div>
+
+        <div class="menu">
+            <h2 class="text-success">Nuestra carta</h2>
+            <ul class="list-group">
+                <!-- list-group: convierte la lista en un grupo de elementos con estilo Bootstrap -->
+
+                <li class="list-group-item">
+                    <!-- list-group-item: da formato de tarjeta a cada elemento de la lista -->
+                    <strong>Entrantes</strong>
+                    <ul class="list-unstyled ms-3">
+                        <!-- list-unstyled: elimina los estilos predeterminados de la lista -->
+                        <!-- ms-3: añade margen a la izquierda con nivel 3 -->
+                        <li>Huevos rotos con patatas y chorizo - <span class="text-danger fw-bold">9.80€</span></li>
+                        <!-- text-danger: cambia el color del texto a rojo -->
+                        <!-- fw-bold: negrita -->
+                        <li>Croquetas de jamón ibérico - <span class="text-danger fw-bold">6.50€</span></li>
+                        <li>Ensalada con tomate de Aranjuez - <span class="text-danger fw-bold">9.99€</span></li>
+                    </ul>
+                </li>
+
+                <li class="list-group-item">
+                    <strong>Platos principales</strong>
+                    <ul class="list-unstyled ms-3">
+                        <li>Entrecot a la brasa - <span class="text-danger fw-bold">15.60€</span></li>
+                        <li>Lubina al horno - <span class="text-danger fw-bold">13.00€</span></li>
+                        <li>Cochinillo asado - <span class="text-danger fw-bold">20.90€</span></li>
+                    </ul>
+                </li>
+
+                <li class="list-group-item">
+                    <strong>Postres</strong>
+                    <ul class="list-unstyled ms-3">
+                        <li>Brownie con nata - <span class="text-danger fw-bold">5.99€</span></li>
+                        <li>Helado de chocolate con sirope de caramelo - <span class="text-danger fw-bold">7.50€</span></li>
+                        <li>Tarta de queso cremosa - <span class="text-danger fw-bold">6.99€</span></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="pie" class="bg-success text-white text-center py-3">
+        <!-- bg-success: fondo verde -->
+        <!-- text-white: texto en color blanco -->
+        <!-- text-center: centra el texto -->
+        <!-- py-3: agrega padding en la parte superior e inferior con nivel 3 -->
+
+        <p class="mb-1"><i class="bi bi-geo-alt-fill"></i> Dirección: Calle Mayor, 45, Aranjuez</p>
+        <!-- mb-1: agrega un pequeño margen en la parte inferior -->
+        <!-- bi bi-geo-alt-fill: icono de ubicación de Bootstrap Icons -->
+        <p class="mb-1"><i class="bi bi-telephone-fill"></i> Teléfono: 555-1234</p>
+        <!-- bi bi-telephone-fill: icono de teléfono de Bootstrap Icons -->
+        <p class="mb-0"><i class="bi bi-envelope-fill"></i> Email: contacto@saboresdearanjuez.com</p>
+        <!-- mb-0: quita el margen inferior para mantener el diseño compacto -->
+        <!-- bi bi-envelope-fill: icono de email de Bootstrap Icons -->
+    </div>
+
+    <!-- Enlace a Bootstrap JS para funcionalidades interactivas -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Enlace a Bootstrap Icons para usar iconos -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+</body>
+</html>
