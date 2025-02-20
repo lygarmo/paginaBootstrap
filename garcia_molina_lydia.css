@@ -1,0 +1,101 @@
+/*Creo el estilo del encabezado dandole el espacio y la disposicion */
+#encabezado{
+    display: flex;
+    padding-left: 10px;
+}
+
+/*en el nombre del restaurante alineo su contenido para que quede 
+centrado entre la parte superior y la inferior
+y añado un margen izquierdo*/
+.nombre{
+    margin-left: 15px;
+    align-content: center;
+}
+
+/*le doy margenes para que la imagen quede centrada*/
+#encabezado img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+/*añado un margen y le doy el tipo de fuente con una lista por 
+si la primero no se puede obtener*/
+body{
+    margin: 15px;
+    font-family: Arial, Verdana, Tahoma;
+}
+
+/*en los h1 y h2 del body les doy margenes izquerdos, 
+color de letra y tipo de fuente*/
+body h1 h2{
+    margin-left: 15px;
+    color: #2E7D32;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*añado un margen*/
+.presentacion{
+    margin-left: 15px;
+}
+
+/*en el cuerpo le doy altura y anchura a la pagina,
+le añado el color de fondo y alineo el contenido*/
+#cuerpo{
+    height: 100%;
+    width: 100%;
+    background-color: #F1F8E9;
+    align-content: center;
+}
+
+/*en la lista quito los signos */
+ul li{
+    list-style-type: none;
+}
+
+/*doy margenes al menu*/
+.menu h2{
+    margin-left: 15px;
+}
+
+.menu{
+    margin-top: 20px;
+    border-style: outset;
+    border-color: #2E7D32;
+}
+
+/*le doy color de fondo, color de fuente, centro el contenido
+y doy la altura del pie*/
+#pie{
+    background-color: #2E7D32;
+    justify-items: center;
+    align-content: center;
+    color: white;
+    height: 150px;
+}
+
+/*en estas tres etiquetas doy el tamaño de la fuente*/
+h1{
+    font-size: 24px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+p{
+    font-size: 16px;
+}
+
+/*le doy el color a las etiquetas*/
+body p h1 h2{
+    color: #2E7D32;
+}
+
+.prueba{
+    font-size: 60px;
+}
+
+a{
+    color: #4E342E;
+}
